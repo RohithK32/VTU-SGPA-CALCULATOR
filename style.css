@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    margin: auto;
+    border: auto;
+    }
+.classp1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.classq1{
+    color: red;
+    font-style: normal;
+}
+input{
+    height: 25px;
+    width: 500px;
+    border-radius: 50px;
+    padding: 8px;
+    word-wrap: break-word;
+}
+ section{
+     align-self: center;
+ }
+button{
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+    background-color: indigo;
+    color: white;
+    text-transform: capitalize;
+}
+#submit2{
+
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+    text-transform: capitalize;
+}
+#reset2{
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+    text-transform: capitalize;
+}
+#forms{
+    text-align: center;
+}
+#form{
+    text-align: center;
+}
+h1{
+    font-size: 44px;
+    text-align: center;
+    color: crimson;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 35px;
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3{
+    font-size: 32px;
+    text-align: center;
+    color: rgb(6, 50, 107);
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    }
+    #col-1 {
+   margin-left: 200px;
+        flex: 1;
+ } 
+   #col-2 {
+       margin-right: 200px;
+    flex: 1; 
+   }
+   .rscls1{
+       text-align: center;
+       height: 20px;
+       width: 120px;
+   }
+   .rscls2{
+    text-align: center;
+    height: 20px;
+    width: 120px;
+   }
+   
+   a{
+       color: mediumorchid;
+       text-transform: uppercase;
+   }
+   a:hover{
+       background-color: firebrick;
+       color: wheat;
+   }
+   
+
+
+
+
+
+
+

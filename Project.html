@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        SGPA CALCULATOR
+    </title>
+    <meta lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1> sgpa </h1>
+    <p class="classp1"><q class="classq1">Sessional Grade Point Average or Semester Grade Point Average [SGPA] is
+            individually calculated at the end of
+            the term/session/semester so as to evaluate the obtained scores and credits taken</q>. It usually contains
+        details
+        like the institution’s name and official seal, total marks, grades and any other information worth relevant.
+        Given below is the formula for SGPA calculation.<br> SGPA = Points secured in the semester/Credits secured
+        in the semester. <br> Conversion formula for the conversion of GPA into Percentage is
+        [SGPA/CGPA Earned – 0.75] x 10 = Percentage of marks scored.<br>
+        <a href="https://www.takeitsmart.in/how-to-calculate-the-sgpacgpa-and-percentage-in-vtu-with-example/"
+            target="_blank"> calculate sgpa </a> <br>
+    </p>
+    <h2> vtu sgpa calculator </h2>
+    <form id="forms" action="SGPA.php" method="POST" name="sgpafrm">
+        <!--To calculate sgpa using forms by javascript-->
+        <section class="container">
+            <div id="col-1">
+                <input type="number" id="c1" placeholder="enter your credits" name="c1" /> <br> <br>
+                <input type="number" id="c2" placeholder="enter your credits" name="c2" /> <br> <br>
+                <input type="number" id="c3" placeholder="enter your credits" name="c3"  /> <br> <br>
+                <input type="number" id="c4" placeholder="enter your credits"  name="c4"  /> <br> <br>
+                <input type="number" id="c5" placeholder="enter your credits" name="c5" /> <br> <br>
+                <input type="number" id="c6" placeholder="enter your credits" name="c6" /> <br> <br>
+                <input type="number" id="c7" placeholder="enter your credits" name="c7" /> <br> <br>
+                <input type="number" id="c8" placeholder="enter your credits" name="c8"  /> <br> <br>
+                <input type="number" id="c9" placeholder="enter your credits" name="c9"  /> <br> <br>
+            </div>
+            <div id="col-2">
+                <input type="number" id="g1" placeholder="enter your grades" name="g1" /> <br> <br>
+                <input type="number" id="g2" placeholder="enter your grades" name="g2" /> <br> <br>
+                <input type="number" id="g3" placeholder="enter your grades" name="g3" /> <br> <br>
+                <input type="number" id="g4" placeholder="enter your grades" name="g4" /> <br> <br>
+                <input type="number" id="g5" placeholder="enter your grades" name="g5" /> <br> <br>
+                <input type="number" id="g6" placeholder="enter your grades" name="g6" /> <br> <br>
+                <input type="number" id="g7" placeholder="enter your grades" name="g7" /> <br> <br>
+                <input type="number" id="g8" placeholder="enter your grades" name="g8"/> <br> <br>
+                <input type="number" id="g9" placeholder="enter your grades" name="g9"/> <br> <br>
+            </div>
+        </section>
+        <button onclick="SGPA()">
+            calculate
+        </button>
+        <!--refresh the webpage,reset works only once-->
+        <button type="reset">
+            Reset
+        </button>
+        <br> <br>
+        <section>
+            <input type="text" id="result" class="rscls1" name="sgpaoutput" />
+        </section>
+        <!--To calculate percentage from sgpa using forms by javascript-->
+
+    </form>
+    <form action="percentageform.php" method="POST" id="form">
+        <h3> sgpa to percentage </h3>
+        <input type="number" id="sgpa" placeholder="enter sgpa to calculate percentage" name="in"/> <br> <br>
+        <button onclick="percentage()" id="submit2"> calculate </button>
+        <!--refresh the html webpage,reset works only once-->
+        <button type="reset" id="reset2"> Reset </button> <br> <br>
+        <input type="text" id="resultpercentage" class="rscls2" name="percentout" />
+    </form>
+</body>
+</html>
